@@ -3,6 +3,7 @@ import random
 import pygame
 import ImageFiles
 import Player
+import copy
 # Classes used by Item type Objects
 
 
@@ -195,6 +196,16 @@ class Weapon(Item):
                     new_colour.b = aux
                 bonus.set_at((x, y), new_colour)
         return bonus
+
+    @staticmethod
+    def generate_stat_boost(modifiers):
+
+        stat_boost = copy.deepcopy(Helper.STATS)
+
+        # for value in stat_boost.
+
+        # for i in range(0, len(modifiers)):
+
 
     @staticmethod
     def generate_texture(

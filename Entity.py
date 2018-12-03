@@ -61,7 +61,7 @@ class HealthBar:
 class Entity:
     """
     ---------------------------------------------------------------------------
-    Super class for all entities. It should never be used directly,
+    Parent class for all entities. It should never be used directly,
         only extended from.
     ---------------------------------------------------------------------------
     """
